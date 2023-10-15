@@ -18,5 +18,8 @@
     "jslint": " eslint .",
     "build": "vite build --base=/WebStudio/"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
 }

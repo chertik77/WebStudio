@@ -14,8 +14,7 @@ jobs:
       - name: Install and build 🔧
         run: |
           npm install
-          npm run stlint
-          npm run jslint
+          npm run lint
           npm run build
 
       - name: Deploy 🚀

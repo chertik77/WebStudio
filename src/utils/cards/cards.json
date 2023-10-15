@@ -1,0 +1,56 @@
+[
+  {
+    "mainImg": "../images/portfolio-page/bank-app/bank.avif",
+    "largeImg": "../images/portfolio-page/bank-app/bank@2x.avif",
+    "title": "Banking App Interface Concept",
+    "subtitle": "App"
+  },
+  {
+    "mainImg": "../images/portfolio-page/payment/payment.avif",
+    "largeImg": "../images/portfolio-page/payment/payment@2x.avif",
+    "title": "Cashless Payment",
+    "subtitle": "Marketing"
+  },
+  {
+    "mainImg": "../images/portfolio-page/meditiation-app/med-app.avif",
+    "largeImg": "../images/portfolio-page/meditiation-app/med-app@2x.avif",
+    "title": "Meditation App",
+    "subtitle": "App"
+  },
+  {
+    "mainImg": "../images/portfolio-page/taxi-service/tax-service.avif",
+    "largeImg": "../images/portfolio-page/taxi-service/tax-service@2x.avif",
+    "title": "Taxi Service",
+    "subtitle": "Marketing"
+  },
+  {
+    "mainImg": "../images/portfolio-page/screens/screens.avif",
+    "largeImg": "../images/portfolio-page/screens/screens@2x.avif",
+    "title": "Screen Illustrations",
+    "subtitle": "Design"
+  },
+  {
+    "mainImg": "../images/portfolio-page/courses/courses.avif",
+    "largeImg": "../images/portfolio-page/courses/courses@2x.avif",
+    "title": "Online Courses",
+    "subtitle": "Marketing"
+  },
+  {
+    "mainImg": "../images/portfolio-page/stories/stories.avif",
+    "largeImg": "../images/portfolio-page/stories/stories@2x.avif",
+    "title": "Instagram Stories Concept",
+    "subtitle": "Design"
+  },
+  {
+    "mainImg": "../images/portfolio-page/food/food.avif",
+    "largeImg": "../images/portfolio-page/food/food@2x.avif",
+    "title": "Organic Food",
+    "subtitle": "Web Site"
+  },
+  {
+    "mainImg": "../images/portfolio-page/coffee/coffee.avif",
+    "largeImg": "../images/portfolio-page/coffee/coffee@2x.avif",
+    "title": "Fresh Coffee",
+    "subtitle": "Web Site"
+  }
+]

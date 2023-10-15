@@ -2,26 +2,26 @@
   font-family: 'Raleway';
   font-weight: 800;
   font-display: swap;
-  src: local('Raleway'), url('../fonts/Raleway-ExtraBold.woff2') format('woff2');
+  src: local('Raleway'), url('../utils/fonts/Raleway-ExtraBold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto'), url('../fonts/Roboto-Regular.woff2') format('woff2');
+  src: local('Roboto'), url('../utils/fonts/Roboto-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 500;
   font-display: swap;
-  src: local('Roboto'), url('../fonts/Roboto-Medium.woff2') format('woff2');
+  src: local('Roboto'), url('../utils/fonts/Roboto-Medium.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-weight: 700;
   font-display: swap;
-  src: local('Roboto'), url('../fonts/Roboto-Bold.woff2') format('woff2');
+  src: local('Roboto'), url('../utils/fonts/Roboto-Bold.woff2') format('woff2');
 }

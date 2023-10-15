@@ -9,8 +9,8 @@
   },
   "private": true,
   "scripts": {
-    "d": "vite",
-    "build": "vite build"
+    "d": "npx htmlhint **/*.html && vite --open",
+    "build": "vite build --base=/WebStudio/"
   },
   "type": "module"
 }

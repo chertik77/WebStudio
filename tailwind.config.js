@@ -1,5 +1,5 @@
 export default {
-  content: ['./src/**/*.{html}'],
+  content: ['./src/**/*.html'],
   theme: {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],

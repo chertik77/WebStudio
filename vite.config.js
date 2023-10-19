@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
+import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
-import { ViteMinifyPlugin } from 'vite-plugin-minify';
-import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   root: 'src',
@@ -12,5 +11,5 @@ export default defineConfig({
     },
     outDir: '../dist',
   },
-  plugins: [injectHTML(), ViteMinifyPlugin({}), FullReload(['./**/**.html'])],
+  plugins: [injectHTML(), ViteMinifyPlugin()],
 });

@@ -1,6 +1,11 @@
 export default {
   content: ['./src/**/*.html'],
   theme: {
+    screens: {
+      sm: { max: '428px' },
+      md: '768px',
+      lg: '1440px',
+    },
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
       raleway: ['Raleway', 'sans-serif'],
@@ -95,6 +100,18 @@ export default {
       success: '#31d0aa',
       modalBg: '#fcfcfc',
       modalMain: '#f4f4fd',
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '15px',
+        lg: '156px',
+      },
+      screens: {
+        sm: '428px',
+        md: '768px',
+        lg: '1440px',
+      },
     },
   },
 };

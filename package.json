@@ -14,8 +14,7 @@
   "scripts": {
     "d": "npm run lint && vite --open",
     "lint": " eslint .",
-    "build-css": "npx tailwindcss -i ./src/index.css -o ./dist/styles.css --minify",
-    "build": "npm run build-css && vite build --base=/WebStudio/"
+    "build": "vite build --base=/WebStudio/"
   },
   "type": "module"
 }

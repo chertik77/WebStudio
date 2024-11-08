@@ -1,0 +1,95 @@
+@import url('./reset.css');
+
+@layer typography;
+
+:root {
+  --white-color: #ffffff;
+  --dairy-color: #fcfcfc;
+  --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
+  --light-slate-color: #8e8f99;
+  --navy-blue-color: #2e2f42;
+  --slate-color: #434455;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --green-color: #31d0aa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white-color);
+  color: var(--slate-color);
+}
+
+.container {
+  max-width: 428px;
+  margin-inline: auto;
+  padding-inline: 15px;
+
+  @media screen and (width >= 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (width >= 1440px) {
+    max-width: 1440px;
+    padding-inline: 156px;
+  }
+}
+
+@layer typography {
+  .heading-1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+  }
+
+  .heading-2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+  }
+
+  .heading-3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+
+  .body-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+
+  .small-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+  }
+
+  .body-medium-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+
+  .button-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+  }
+
+  .link-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+  }
+}

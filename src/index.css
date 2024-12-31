@@ -13,6 +13,8 @@
   --iris-color: #4d5ae5;
   --ocean-color: #404bbf;
   --green-color: #31d0aa;
+
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -91,5 +93,72 @@ body {
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.48px;
+  }
+}
+
+.logo {
+  color: var(--iris-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+
+  > span {
+    color: var(--navy-blue-color);
+  }
+}
+
+.header {
+  border-bottom: 1px solid var(--cornflower-color);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+
+  a {
+    display: block;
+    padding-block: 24px;
+    transition: color var(--transition);
+
+    &:hover,
+    &:focus-visible {
+      color: var(--ocean-color);
+    }
+  }
+}
+
+@media screen and (width < 768px) {
+  .header {
+    padding-block: 24px;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .header-nav-list {
+    display: none;
+  }
+
+  address {
+    display: none;
   }
 }

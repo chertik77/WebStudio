@@ -202,7 +202,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(./images/hero-desktop/hero.jpg);
+    url(/images/hero-desktop/hero.jpg);
   padding: 188px 0;
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/hero-laptop/hero-laptop.jpg);
+      url(/images/hero-laptop/hero-laptop.jpg);
   }
 }
 @media only screen and (min-device-pixel-ratio: 2) and (max-width: 1199px),
@@ -228,7 +228,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/hero-laptop/hero-laptop@2x.jpg);
+      url(/images/hero-laptop/hero-laptop@2x.jpg);
   }
 }
 @media only screen and (max-width: 767px) {
@@ -238,7 +238,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/hero-mobile/hero-mobile-bg.jpg);
+      url(/images/hero-mobile/hero-mobile-bg.jpg);
   }
 }
 @media only screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -249,7 +249,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/hero-mobile/hero-mobile-bg@2x.jpg);
+      url(/images/hero-mobile/hero-mobile-bg@2x.jpg);
   }
 }
 .hero-title {
@@ -1132,7 +1132,7 @@ address {
   margin-right: 8px;
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url(./images/checkbox.svg);
+  background-image: url(/images/checkbox.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 16px;

@@ -8,6 +8,9 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon.ico" />
     <title>Web Studio</title>
     <!-- Links to fonts  -->
     <link
@@ -27,7 +30,7 @@
     <!-- Link to css  -->
     <link
       rel="stylesheet"
-      href="./css/styles.css" />
+      href="./styles.css" />
   </head>
 
   <body>
@@ -60,7 +63,7 @@
         <button
           class="burger-btn"
           type="button"
-          data-modal-open-mobile-pf>
+          data-modal-open="menu">
           <svg
             class="burger-icon"
             width="32"
@@ -97,7 +100,7 @@
           <button
             class="btn"
             type="button"
-            data-modal-open>
+            data-modal-open="contacts">
             Order Service
           </button>
         </div>
@@ -637,7 +640,7 @@
     <!-- Modal section  -->
     <div
       class="backdrop is-hidden"
-      data-modal>
+      data-modal="contacts">
       <div class="modal">
         <button
           type="button"
@@ -737,12 +740,12 @@
 
     <div
       class="backdrop is-hidden"
-      data-modal-mobile-pf>
+      data-modal="menu">
       <div class="modal-mobile">
         <button
           type="button"
           class="modal-close-btn modal-close-btn-mobile"
-          data-modal-close-mobile-pf>
+          data-modal-close>
           <svg
             class="modal-close-icon modal-close-icon-mobile"
             width="8"
@@ -840,7 +843,6 @@
     </div>
     <!-- Java script  -->
     <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script>
-    <script src="./js/modal.js"></script>
-    <script src="./js/modal-mobile.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>

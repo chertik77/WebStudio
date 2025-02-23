@@ -152,7 +152,7 @@ address {
 .nav-link.active::after {
   background-color: #404bbf;
 }
-.nav-link.active {
+.nav-link .active {
   color: #404bbf;
 }
 .contacts-list {
@@ -1202,6 +1202,11 @@ address {
   color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.nav-link-mobile.active {
+  color: #404bbf;
+}
+
 .nav-link-mobile:hover,
 .nav-link-mobile:focus {
   color: #404bbf;
